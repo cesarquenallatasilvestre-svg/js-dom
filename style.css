@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f6f7;
+}
+
+.contenedor {
+    width: 82%;
+    margin: 35px auto;
+    display: flex;
+    gap: 25px;
+}
+
+.tienda {
+    width: 58%;
+}
+
+.tienda h1 {
+    font-size: 32px;
+}
+
+.cursos {
+    display: flex;
+    gap: 16px;
+}
+
+.curso {
+    width: 50%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 18px 16px 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.curso h2 {
+    font-size: 20px;
+}
+
+.precio {
+    color: #1769e0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-agregar {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    background: #198754;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-agregar:hover {
+    background: #157347;
+}
+
+.carrito {
+    width: 42%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.carrito h1 {
+    font-size: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #212529;
+    color: white;
+    text-align: left;
+    padding: 13px 9px;
+}
+
+td {
+    padding: 12px 9px;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-eliminar {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#total {
+    background: #1769e0;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 5px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Cursos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="tienda">
+            <h1>Tienda de Cursos</h1>
+            <div class="cursos">
+                <div class="curso">
+                    <h2>Curso de React</h2>
+                    <p class="precio">$50</p>
+                    <button class="btn-agregar"
+                            data-nombre="Curso de React"
+                            data-precio="50">
+                        Agregar al Carrito
+                    </button>
+                </div>
+
+                <div class="curso">
+                    <h2>Curso de n8n</h2>
+                    <p class="precio">$40</p>
+                    <button class="btn-agregar"
+                            data-nombre="Curso de n8n"
+                            data-precio="40">
+                        Agregar al Carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="carrito">
+            <h1>Tu Carrito</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+
+                <tbody id="listaCarrito">
+                </tbody>
+            </table>
+
+            <div class="total">
+                <h2>Total a Pagar:</h2>
+                <span id="total">$0</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
