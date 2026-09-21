@@ -21,7 +21,7 @@ botones.forEach(function(boton) {
 
 });
 
-function mostrarCarrito() {
+/* function mostrarCarrito() {
     listaCarrito.innerHTML = "";
     let total = 0;
     carrito.forEach(function(producto, indice) {
@@ -35,7 +35,7 @@ function mostrarCarrito() {
                     Eliminar
                 </button>
             </td>
-        `;
+        `; */
 
         listaCarrito.appendChild(fila);
     });
